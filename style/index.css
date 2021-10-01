@@ -1,0 +1,134 @@
+* {
+  padding: 0;
+  margin: 0;
+} 
+
+body {
+  display: flex;
+  flex-direction: column;
+  width: 100vw;
+  height: 100vh;
+  background: white;
+  color: white;
+  font-family: Calibri, serif;
+}
+
+
+.part1 {
+  display: flex;
+  flex-direction: row;
+  padding: 1.5em;
+  border: 0px solid black;
+
+}
+
+
+.part1 button {
+  border: 10px solid white;
+  padding: 10px 10px;
+  background: black;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+  transition-duration: .3s;
+  width:30%;
+  position: relative;
+  border-radius: 2.5em;
+  font-size: 22pt
+
+
+}
+
+.part1 button:hover {
+  color: black;
+  background: white;
+  transition-duration: .2s;
+  cursor: pointer;
+  border: 8px solid black;
+
+
+}
+
+#root {
+background: black;
+
+}
+
+#root canvas{
+background: white;
+display: block;
+margin: 0 auto;
+
+}
+
+
+
+#score{
+    padding: 10px 10px;
+    font-weight: bold;
+    font-size: 22pt;
+    color:black;
+}
+
+#buttons{
+  margin: 0;
+  display: flex;
+  flex-direction: row;
+  width: 700px;
+  outline: none;
+}
+
+#p1{
+  padding: 0.5em 0.5px;
+  font-weight: bold;
+  font-size: 28pt;
+  color: black;
+  margin-right: 0.5em;
+}
+
+a{
+  text-decoration: none;
+}
+
+
+#buttonstart{
+ margin-right: 2em;
+}
+
+
+#footrer{
+height: 100vh;
+width: 100vw;
+display: flex;
+flex-direction: column;
+
+
+}
+
+#footer_p{
+color: lightgray;
+text-align: center;
+font-weight:bold;
+
+}
+
+#name{
+    margin-top : 0.5em;
+    margin-right : 1em;
+    height: 5vh;
+
+    box-sizing: border-box;
+    border: 2px solid grey;
+    border-radius: 5px;
+    font-size: 2em;
+    width: 8em;
+    transition: width 1s ease;
+}
+
+#text{
+  color:black ;
+  margin-top : 0.8em;
+  margin-right : 1em;
+  font-size: 20pt;
+
+}
